@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Upserv",
+    "slug": "upserv-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",  
+      "backgroundColor": "#061D3B"
+    },
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "supportsTabletMode": false,
+      "bundleIdentifier": "com.upserv.app"
+    },
+    "android": {
+      "package": "com.upserv.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#061D3B"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

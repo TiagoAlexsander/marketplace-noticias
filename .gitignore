@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Build TypeScript
+dist/
+build/
+
+# Banco de dados local (runtime)
+*.sqlite
+*.sqlite3
+*.db
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.production
+
+# Expo
+.expo/
+.expo-shared/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
